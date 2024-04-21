@@ -1,26 +1,26 @@
-import {Routes, Route, Link } from "react-router-dom";
-
+import { Link, Route, Routes } from "react-router-dom";
 
 /* Home component */
 const Home = () => (
- <div>
-   <h2>Home</h2>
- </div>
+  <div>
+    <h2>Home</h2>
+  </div>
 );
- 
+
 /* Category component */
 const Category = () => (
- <div>
-   <h2>Category</h2>
- </div>
+  <div>
+    <h2>Category</h2>
+  </div>
 );
 
 /* Products component */
 const Products = () => (
- <div>
-   <h2>Products</h2>
- </div>
+  <div>
+    <h2>Products</h2>
+  </div>
 );
+
 function App() {
   return (
     <>
@@ -49,6 +49,6 @@ function App() {
       </div>
     </>
   );
- };
+}
 
 export default App;
